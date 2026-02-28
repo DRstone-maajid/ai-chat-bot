@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>k.vm.s s Chat Bot</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="brand">
+        <h1>k.vm.s s</h1>
+        <p>AI Chat Bot</p>
+      </header>
+
+      <section id="chat" class="chat" aria-live="polite"></section>
+
+      <form id="chat-form" class="composer">
+        <input
+          id="message-input"
+          name="message"
+          type="text"
+          placeholder="Type your message..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
